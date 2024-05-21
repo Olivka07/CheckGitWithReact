@@ -21,6 +21,7 @@ export const Form = () => {
     const submit = (e: MouseEvent<HTMLButtonElement>) => {
         e.preventDefault();
         console.log(formAuth, 'OBJ');
+        console.log('Commit 4');
     };
 
     return (
