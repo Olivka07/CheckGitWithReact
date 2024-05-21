@@ -22,6 +22,7 @@ export const Form = () => {
         e.preventDefault();
         console.log(formAuth, 'OBJ');
         console.log('Commit 4');
+        console.log('Commit 5');
     };
 
     return (
