@@ -20,6 +20,7 @@ export const Form = () => {
 
     const submit = (e: MouseEvent<HTMLButtonElement>) => {
         e.preventDefault();
+        console.log(formAuth, 'OBJ');
     };
 
     return (
